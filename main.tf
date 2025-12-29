@@ -20,6 +20,5 @@ resource "aws_s3_bucket" "stage6_bucket" {
 }
 
 provider "aws" {
-  profile = "dev"
   region  = "eu-west-2"
 }
